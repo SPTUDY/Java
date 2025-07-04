@@ -6,9 +6,9 @@ public class MemberConstruct {
     int grade;
 
     MemberConstruct(String name, int age) {
+        this(name, age, 50);
         System.out.println("생성자 호출 - name, age");
         System.out.println("name: " + name + " | age: " + age);
-        this(name, age, 50);
     }
 
     MemberConstruct(String name, int age, int grade) {
